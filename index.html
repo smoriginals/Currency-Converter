@@ -5,31 +5,83 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Currency Converter</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-	<div class="container">
-		<div class="insideContainer">
-			<div class="upperTitle">
-				<p>Currency Converter</p>
-			</div>
-			<div class="upperProfile">
-				<p>Pro</p>
-			</div>
-			<div class="searchAmount">
-				<input class="inp" placeholder="Enter Amount..." name="Search">
-			</div>
-			<div class="from">
-				
-			</div>
-			<div class="conversion">Img</div>
-			<div class="to">
-				
-			</div>
-			<div class="output"></div>
-			
-	    </div>
+	<div class="nav">
+		<p id="appTitle">Currency Converter</p>
+	</div>
+	<div class="space"></div>
+	<div class="appContainer">
+		<div class="showFlags">
+			<img src="https://flagsapi.com/US/shiny/64.png">
+			<img src="https://flagsapi.com/JP/shiny/64.png">
+			<img src="https://flagsapi.com/BE/shiny/64.png">
+			<img src="https://flagsapi.com/IN/shiny/64.png">
+		</div>
+	</div>
+
+	<div class="appSection">
+		<p id="amount">Enter Amount</p>
+	</div>
+	<form>
+	<div class="inputContainer">
+		<input class ="inputBox" placeholder=" Enter Amount $1...">
+	</div>
+	
+	<div class="country">
+
+		<div class="flags">
+			<img src="https://flagsapi.com/US/shiny/64.png" height="50" width="50">
+		</div>
+
+		<div class="currency">
+			<select>
+				<option>USD</option>
+			</select>
+		</div>
+
+		<div class="flags">
+			<img src="https://flagsapi.com/IN/shiny/64.png" height="50" width="50">
+		</div>
+
+		<div class="currency">
+			<select>
+				<option>INR</option>
+			</select>
+		</div>
+	</div>
+
+	<div class="getValue">
+		<div class="output">
+			<p id="appTitle">Output Here...</div>
+		</div>
+	</div>
+
+	<div class="submiting">
+		<button type="submit">Get Exchange Rate</button>
+	</div>
+
+	</form>
+
+	<div class="account">
+
+		<a href="#">Login</a><pre>Don't have an Account<a href="#"> Sign up</a></pre>
+		
+		<div class="others">
+			<p id="amount">Check Out Our Others Projects</p>
+		</div>
+
+		<div class="links">
+			<ul>
+			<li><a href="#">Amazon Clone</a></li>
+			<li><a href="#">Tic Tac Toe</a></li>
+			<li><a href="#">Rock Paper Scissors</a></li>
+			<li><a href="#">Currency Converter</a></li>
+			</ul>
+		</div>
 	</div>
 	<script src="Jscript.js"></script>
-	<script src="Jscript.js"></script>
+	<script src="Cscript.js"></script>
 </body>
 </html>

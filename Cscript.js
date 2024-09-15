@@ -1,162 +1,162 @@
 var countryList = {
-  AED: "AE",  // United Arab Emirates
-  AFN: "AF",  // Afghanistan
-  ALL: "AL",  // Albania
-  AMD: "AM",  // Armenia
-  ANG: "NL",  // Netherlands Antilles
-  AOA: "AO",  // Angola
-  ARS: "AR",  // Argentina
-  AUD: "AU",  // Australia
-  AWG: "AW",  // Aruba
-  AZN: "AZ",  // Azerbaijan
-  BAM: "BA",  // Bosnia and Herzegovina
-  BBD: "BB",  // Barbados
-  BDT: "BD",  // Bangladesh
-  BGN: "BG",  // Bulgaria
-  BHD: "BH",  // Bahrain
-  BIF: "BI",  // Burundi
-  BMD: "BM",  // Bermuda
-  BND: "BN",  // Brunei
-  BOB: "BO",  // Bolivia
-  BRL: "BR",  // Brazil
-  BSD: "BS",  // Bahamas
-  BTN: "BT",  // Bhutan
-  BWP: "BW",  // Botswana
-  BYN: "BY",  // Belarus
-  BZD: "BZ",  // Belize
-  CAD: "CA",  // Canada
-  CDF: "CD",  // Congo (Democratic Republic)
-  CHF: "CH",  // Switzerland
-  CLP: "CL",  // Chile
-  CNY: "CN",  // China
-  COP: "CO",  // Colombia
-  CRC: "CR",  // Costa Rica
-  CUP: "CU",  // Cuba
-  CVE: "CV",  // Cape Verde
-  CZK: "CZ",  // Czech Republic
-  DJF: "DJ",  // Djibouti
-  DKK: "DK",  // Denmark
-  DOP: "DO",  // Dominican Republic
-  DZD: "DZ",  // Algeria
-  EGP: "EG",  // Egypt
-  ERN: "ER",  // Eritrea
-  ETB: "ET",  // Ethiopia
-  EUR: "EU",  // Eurozone
-  FJD: "FJ",  // Fiji
-  FKP: "FK",  // Falkland Islands
-  FOK: "FO",  // Faroe Islands
-  GBP: "GB",  // United Kingdom
-  GEL: "GE",  // Georgia
-  GGP: "GG",  // Guernsey
-  GHS: "GH",  // Ghana
-  GIP: "GI",  // Gibraltar
-  GMD: "GM",  // Gambia
-  GNF: "GN",  // Guinea
-  GTQ: "GT",  // Guatemala
-  GYD: "GY",  // Guyana
-  HKD: "HK",  // Hong Kong
-  HNL: "HN",  // Honduras
-  HRK: "HR",  // Croatia
-  HTG: "HT",  // Haiti
-  HUF: "HU",  // Hungary
-  IDR: "ID",  // Indonesia
-  ILS: "IL",  // Israel
-  IMP: "IM",  // Isle of Man
-  INR: "IN",  // India
-  IQD: "IQ",  // Iraq
-  IRR: "IR",  // Iran
-  ISK: "IS",  // Iceland
-  JEP: "JE",  // Jersey
-  JMD: "JM",  // Jamaica
-  JOD: "JO",  // Jordan
-  JPY: "JP",  // Japan
-  KES: "KE",  // Kenya
-  KGS: "KG",  // Kyrgyzstan
-  KHR: "KH",  // Cambodia
-  KID: "KI",  // Kiribati
-  KMF: "KM",  // Comoros
-  KRW: "KR",  // South Korea
-  KWD: "KW",  // Kuwait
-  KYD: "KY",  // Cayman Islands
-  KZT: "KZ",  // Kazakhstan
-  LAK: "LA",  // Laos
-  LBP: "LB",  // Lebanon
-  LKR: "LK",  // Sri Lanka
-  LRD: "LR",  // Liberia
-  LSL: "LS",  // Lesotho
-  LYD: "LY",  // Libya
-  MAD: "MA",  // Morocco
-  MDL: "MD",  // Moldova
-  MGA: "MG",  // Madagascar
-  MKD: "MK",  // North Macedonia
-  MMK: "MM",  // Myanmar
-  MNT: "MN",  // Mongolia
-  MOP: "MO",  // Macao
-  MRU: "MR",  // Mauritania
-  MUR: "MU",  // Mauritius
-  MVR: "MV",  // Maldives
-  MWK: "MW",  // Malawi
-  MXN: "MX",  // Mexico
-  MYR: "MY",  // Malaysia
-  MZN: "MZ",  // Mozambique
-  NAD: "NA",  // Namibia
-  NGN: "NG",  // Nigeria
-  NIO: "NI",  // Nicaragua
-  NOK: "NO",  // Norway
-  NPR: "NP",  // Nepal
-  NZD: "NZ",  // New Zealand
-  OMR: "OM",  // Oman
-  PAB: "PA",  // Panama
-  PEN: "PE",  // Peru
-  PGK: "PG",  // Papua New Guinea
-  PHP: "PH",  // Philippines
-  PKR: "PK",  // Pakistan
-  PLN: "PL",  // Poland
-  PYG: "PY",  // Paraguay
-  QAR: "QA",  // Qatar
-  RON: "RO",  // Romania
-  RSD: "RS",  // Serbia
-  RUB: "RU",  // Russia
-  RWF: "RW",  // Rwanda
-  SAR: "SA",  // Saudi Arabia
-  SBD: "SB",  // Solomon Islands
-  SCR: "SC",  // Seychelles
-  SDG: "SD",  // Sudan
-  SEK: "SE",  // Sweden
-  SGD: "SG",  // Singapore
-  SHP: "SH",  // Saint Helena
-  SLL: "SL",  // Sierra Leone
-  SOS: "SO",  // Somalia
-  SRD: "SR",  // Suriname
-  SSP: "SS",  // South Sudan
-  STN: "ST",  // São Tomé and Príncipe
-  SYP: "SY",  // Syria
-  SZL: "SZ",  // Eswatini
-  THB: "TH",  // Thailand
-  TJS: "TJ",  // Tajikistan
-  TMT: "TM",  // Turkmenistan
-  TND: "TN",  // Tunisia
-  TOP: "TO",  // Tonga
-  TRY: "TR",  // Turkey
-  TTD: "TT",  // Trinidad and Tobago
-  TVD: "TV",  // Tuvalu
-  TWD: "TW",  // Taiwan
-  TZS: "TZ",  // Tanzania
-  UAH: "UA",  // Ukraine
-  UGX: "UG",  // Uganda
-  USD: "US",  // United States
-  UYU: "UY",  // Uruguay
-  UZS: "UZ",  // Uzbekistan
-  VES: "VE",  // Venezuela
-  VND: "VN",  // Vietnam
-  VUV: "VU",  // Vanuatu
-  WST: "WS",  // Samoa
-  XAF: "CF",  // Central African CFA Franc
-  XCD: "AG",  // East Caribbean Dollar
-  XOF: "BJ",  // West African CFA Franc
-  XPF: "PF",  // CFP Franc
-  YER: "YE",  // Yemen
-  ZAR: "ZA",  // South Africa
-  ZMW: "ZM",  // Zambia
-  ZWL: "ZW"   // Zimbabwe
+  AED: "AE",
+  AFN: "AF",
+  ALL: "AL",
+  AMD: "AM",
+  ANG: "NL",
+  AOA: "AO",
+  ARS: "AR",
+  AUD: "AU",
+  AWG: "AW",
+  AZN: "AZ",
+  BAM: "BA",
+  BBD: "BB",
+  BDT: "BD",
+  BGN: "BG",
+  BHD: "BH",
+  BIF: "BI",
+  BMD: "BM",
+  BND: "BN",
+  BOB: "BO",
+  BRL: "BR",
+  BSD: "BS",
+  BTN: "BT",
+  BWP: "BW",
+  BYN: "BY",
+  BZD: "BZ",
+  CAD: "CA",
+  CDF: "CD",
+  CHF: "CH",
+  CLP: "CL",
+  CNY: "CN",
+  COP: "CO",
+  CRC: "CR",
+  CUP: "CU",
+  CVE: "CV",
+  CZK: "CZ",
+  DJF: "DJ",
+  DKK: "DK",
+  DOP: "DO",
+  DZD: "DZ",
+  EGP: "EG",
+  ERN: "ER",
+  ETB: "ET",
+  EUR: "EU",
+  FJD: "FJ",
+  FKP: "FK",
+  FOK: "FO",
+  GBP: "GB",
+  GEL: "GE",
+  GGP: "GG",
+  GHS: "GH",
+  GIP: "GI",
+  GMD: "GM",
+  GNF: "GN",
+  GTQ: "GT",
+  GYD: "GY",
+  HKD: "HK",
+  HNL: "HN",
+  HRK: "HR",
+  HTG: "HT",
+  HUF: "HU",
+  IDR: "ID",
+  ILS: "IL",
+  IMP: "IM",
+  INR: "IN",
+  IQD: "IQ",
+  IRR: "IR",
+  ISK: "IS",
+  JEP: "JE",
+  JMD: "JM",
+  JOD: "JO",
+  JPY: "JP",
+  KES: "KE",
+  KGS: "KG",
+  KHR: "KH",
+  KID: "KI",
+  KMF: "KM",
+  KRW: "KR",
+  KWD: "KW",
+  KYD: "KY",
+  KZT: "KZ",
+  LAK: "LA",
+  LBP: "LB",
+  LKR: "LK",
+  LRD: "LR",
+  LSL: "LS",
+  LYD: "LY",
+  MAD: "MA",
+  MDL: "MD",
+  MGA: "MG",
+  MKD: "MK",
+  MMK: "MM",
+  MNT: "MN",
+  MOP: "MO",
+  MRU: "MR",
+  MUR: "MU",
+  MVR: "MV",
+  MWK: "MW",
+  MXN: "MX",
+  MYR: "MY",
+  MZN: "MZ",
+  NAD: "NA",
+  NGN: "NG",
+  NIO: "NI",
+  NOK: "NO",
+  NPR: "NP",
+  NZD: "NZ",
+  OMR: "OM",
+  PAB: "PA",
+  PEN: "PE",
+  PGK: "PG",
+  PHP: "PH",
+  PKR: "PK",
+  PLN: "PL",
+  PYG: "PY",
+  QAR: "QA",
+  RON: "RO",
+  RSD: "RS",
+  RUB: "RU",
+  RWF: "RW",
+  SAR: "SA",
+  SBD: "SB",
+  SCR: "SC",
+  SDG: "SD",
+  SEK: "SE",
+  SGD: "SG",
+  SHP: "SH",
+  SLL: "SL",
+  SOS: "SO",
+  SRD: "SR",
+  SSP: "SS",
+  STN: "ST",
+  SYP: "SY",
+  SZL: "SZ",
+  THB: "TH",
+  TJS: "TJ",
+  TMT: "TM",
+  TND: "TN",
+  TOP: "TO",
+  TRY: "TR",
+  TTD: "TT",
+  TVD: "TV",
+  TWD: "TW",
+  TZS: "TZ",
+  UAH: "UA",
+  UGX: "UG",
+  USD: "US",
+  UYU: "UY",
+  UZS: "UZ",
+  VES: "VE",
+  VND: "VN",
+  VUV: "VU",
+  WST: "WS",
+  XAF: "CF",
+  XCD: "AG",
+  XOF: "BJ",
+  XPF: "PF",
+  YER: "YE",
+  ZAR: "ZA",
+  ZMW: "ZM",
+  ZWL: "ZW",
 };
