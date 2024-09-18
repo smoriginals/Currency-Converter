@@ -2,7 +2,7 @@
 	margin:0px;
 	padding:0px;
 	font-size:16px;
-	font-family:godofwar;
+	font-family:geometos;
 	box-sizing:borer-box;
 }
 button{
@@ -10,7 +10,6 @@ button{
 	width:95%;
 	border-radius:10px;
 	font-size:1.4rem;
-	
 }
 a{
 	text-decoration:none;
@@ -28,11 +27,9 @@ a{
 .nav{
 	height:4rem;
 	width:100%;
-	background-color:pink;
 }
 .space{
 	height:1rem;
-	background-color:red;
 }
 .appContainer{
 	height:100%;
@@ -42,7 +39,6 @@ a{
 .showFlags{
 	height:4rem;
 	width:100%;
-	background-color:pink;
 	display:flex;
 	justify-content:space-evenly;
 }
@@ -54,11 +50,9 @@ a{
 	align-items:center;
 	padding:0 0 0 5px;
 	margin-top:5px;
-	background-color:gray;
 }
 .searchInput{
 	height:2.1rem;
-	background-color:pink;
 }
 .inputBox{
 	height:4rem;
@@ -69,7 +63,6 @@ a{
 .inputContainer{
 	height:5rem;
 	width:100%;
-	background-color:red;
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -77,14 +70,13 @@ a{
 .country{
 	height:7rem;
 	width:100%;
-	background-color:blue;
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-evenly;
 	align-items:center;
 	margin-top:20px;
 }
-.flags{
+.flagsF,.flagsT{
 	height:2.5rem;
 	width:25%;
 	background-color:white;
@@ -105,7 +97,6 @@ a{
 .getValue{
 	height:3rem;
 	width:100%;
-	background-color:gray;
 	margin-top:20px;
 	display:flex;
 	justify-content:center;
@@ -114,7 +105,6 @@ a{
 .output{
 	height:2.8rem;
 	width:100%;
-	background-color:red;
 	border-radius:50px;
 	display:flex;
 	justify-content:center;
@@ -123,7 +113,6 @@ a{
 .submiting{
 	height:5rem;
 	width:100%;
-	background-color:pink;
 	margin-top:5px;
 	display:flex;
 	justify-content:center;
@@ -133,7 +122,6 @@ a{
 .account{
 	height:12rem;
 	width:100%;
-	background-color:gray;
 	border-radius:10px 15px 0 0;
 	padding:15px;
 	margin-top:10px;
@@ -141,7 +129,6 @@ a{
 .others{
 	height:2.5rem;
 	width:100%;
-	background-color:red;
 	line-height:2.5rem;
 	display:block;
 }
@@ -150,14 +137,44 @@ a{
 	height:6.5rem;
 	width:100%;
 	padding-left:20px;
-	background-color:white;
 }
 li{
 	padding:2px;
 }
-.custom-select{
+select{
 	height:2.5rem;
-	width:100%;
-	border-radius:50px;
-	content:"▾";
+	
 }
+
+.currency select {
+  appearance: none; /* Remove default styling */
+  background-color:white;
+  color: black;
+  padding-left:25px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius:50px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Add a custom arrow */
+.currency {
+  position: relative;
+  display: inline-block;
+  border-radius:50px;
+
+}
+
+.currency::after {
+  content: '▼';
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: black;
+  font-size: 16px;
+}
+

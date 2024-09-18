@@ -1,4 +1,4 @@
-var countryList = {
+const countryList = {
   AED: "AE",
   AFN: "AF",
   ALL: "AL",
@@ -160,3 +160,4 @@ var countryList = {
   ZMW: "ZM",
   ZWL: "ZW",
 };
+
