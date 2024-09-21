@@ -10,6 +10,7 @@ button{
 	width:95%;
 	border-radius:10px;
 	font-size:1.4rem;
+	cursor:pointer;
 }
 a{
 	text-decoration:none;
@@ -17,12 +18,13 @@ a{
 }
 
 #appTitle{
-	font-size:1.7rem;
+	font-size:1.4rem;
 	line-height:3.5rem;
-	padding:0 0 0 8px;
+	margin-left:40px;
 }
 #amount{
 	font-size:1.2rem;
+	margin-left:38px;
 }
 .nav{
 	height:4rem;
@@ -59,7 +61,10 @@ a{
 	width:95%;
 	border:1px solid #ccc;
 	border-radius:10px;
+	padding-left:30px;
+	box-sizing:border-box;
 }
+
 .inputContainer{
 	height:5rem;
 	width:100%;
@@ -84,6 +89,7 @@ a{
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	
 }
 .currency{
 	height:2.5rem;
@@ -93,6 +99,7 @@ a{
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	
 }
 .getValue{
 	height:3rem;
@@ -110,6 +117,7 @@ a{
 	justify-content:center;
 	align-items:center;
 }
+
 .submiting{
 	height:5rem;
 	width:100%;
@@ -119,13 +127,16 @@ a{
 	align-items:center;
 }
 
+
 .account{
-	height:12rem;
-	width:100%;
-	border-radius:10px 15px 0 0;
-	padding:15px;
-	margin-top:10px;
+	height:13rem;
+	width:95%;
+	border-radius:5px;
+	padding:20px;
+	margin:0 auto;
+	box-sizing:border-box;
 }
+
 .others{
 	height:2.5rem;
 	width:100%;
@@ -143,7 +154,6 @@ li{
 }
 select{
 	height:2.5rem;
-	
 }
 
 .currency select {

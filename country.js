@@ -1,12 +1,15 @@
 const countryList = {
+  ADA: "ADA", // Cardano (cryptocurrency)
   AED: "AE",
   AFN: "AF",
   ALL: "AL",
   AMD: "AM",
-  ANG: "NL",
+  ANG: "AN", // Netherlands Antilles
   AOA: "AO",
+  ARB: "ARB", // Arbitrum (cryptocurrency)
   ARS: "AR",
   AUD: "AU",
+  AVAX: "AVAX", // Avalanche (cryptocurrency)
   AWG: "AW",
   AZN: "AZ",
   BAM: "BA",
@@ -16,35 +19,42 @@ const countryList = {
   BHD: "BH",
   BIF: "BI",
   BMD: "BM",
+  BNB: "BNB", // Binance Coin (cryptocurrency)
   BND: "BN",
   BOB: "BO",
   BRL: "BR",
   BSD: "BS",
+  BTC: "BTC", // Bitcoin (cryptocurrency)
   BTN: "BT",
   BWP: "BW",
   BYN: "BY",
+  BYR: "BY", // Old Belarusian Ruble
   BZD: "BZ",
   CAD: "CA",
   CDF: "CD",
   CHF: "CH",
+  CLF: "CL", // Unidad de Fomento (funds code)
   CLP: "CL",
   CNY: "CN",
   COP: "CO",
   CRC: "CR",
+  CUC: "CU",
   CUP: "CU",
   CVE: "CV",
   CZK: "CZ",
+  DAI: "DAI", // Dai (cryptocurrency)
   DJF: "DJ",
   DKK: "DK",
   DOP: "DO",
+  DOT: "DOT", // Polkadot (cryptocurrency)
   DZD: "DZ",
   EGP: "EG",
   ERN: "ER",
   ETB: "ET",
+  ETH: "ETH", // Ethereum (cryptocurrency)
   EUR: "EU",
   FJD: "FJ",
   FKP: "FK",
-  FOK: "FO",
   GBP: "GB",
   GEL: "GE",
   GGP: "GG",
@@ -73,8 +83,8 @@ const countryList = {
   KES: "KE",
   KGS: "KG",
   KHR: "KH",
-  KID: "KI",
   KMF: "KM",
+  KPW: "KP",
   KRW: "KR",
   KWD: "KW",
   KYD: "KY",
@@ -84,14 +94,19 @@ const countryList = {
   LKR: "LK",
   LRD: "LR",
   LSL: "LS",
+  LTC: "LTC", // Litecoin (cryptocurrency)
+  LTL: "LT", // Lithuanian Litas (historical)
+  LVL: "LV", // Latvian Lats (historical)
   LYD: "LY",
   MAD: "MA",
+  MATIC: "MATIC", // Polygon (cryptocurrency)
   MDL: "MD",
   MGA: "MG",
   MKD: "MK",
   MMK: "MM",
   MNT: "MN",
   MOP: "MO",
+  MRO: "MR", // Old Mauritanian Ouguiya
   MRU: "MR",
   MUR: "MU",
   MVR: "MV",
@@ -106,6 +121,7 @@ const countryList = {
   NPR: "NP",
   NZD: "NZ",
   OMR: "OM",
+  OP: "OP", // Optimism (cryptocurrency)
   PAB: "PA",
   PEN: "PE",
   PGK: "PG",
@@ -126,10 +142,12 @@ const countryList = {
   SGD: "SG",
   SHP: "SH",
   SLL: "SL",
+  SOL: "SOL", // Solana (cryptocurrency)
   SOS: "SO",
   SRD: "SR",
-  SSP: "SS",
+  STD: "ST", // Old São Tomé and Príncipe Dobra
   STN: "ST",
+  SVC: "SV",
   SYP: "SY",
   SZL: "SZ",
   THB: "TH",
@@ -139,25 +157,33 @@ const countryList = {
   TOP: "TO",
   TRY: "TR",
   TTD: "TT",
-  TVD: "TV",
   TWD: "TW",
   TZS: "TZ",
   UAH: "UA",
   UGX: "UG",
   USD: "US",
+  USDC: "USDC", // USD Coin (cryptocurrency)
+  USDT: "USDT", // Tether (cryptocurrency)
   UYU: "UY",
   UZS: "UZ",
+  VEF: "VE", // Old Venezuelan Bolívar
   VES: "VE",
   VND: "VN",
   VUV: "VU",
   WST: "WS",
   XAF: "CF",
+  XAG: "XAG", // Silver (commodity)
+  XAU: "XAU", // Gold (commodity)
   XCD: "AG",
+  XDR: "XDR", // Special Drawing Rights
   XOF: "BJ",
+  XPD: "XPD", // Palladium (commodity)
   XPF: "PF",
+  XPT: "XPT", // Platinum (commodity)
+  XRP: "XRP", // Ripple (cryptocurrency)
   YER: "YE",
   ZAR: "ZA",
+  ZMK: "ZM", // Old Zambian Kwacha
   ZMW: "ZM",
   ZWL: "ZW",
 };
-
