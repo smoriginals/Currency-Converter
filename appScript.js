@@ -79,7 +79,9 @@ const UpdateFlags=(e)=>{
 	out.innerText=answer.toString();
 });*/
 
-getData.addEventListener("click", async () => {
+getData.addEventListener("click", async (e) => {
+	
+	e.preventDefault();
     let response = await fetch(latestRate);
     let result = await response.json();
     let baseData = result.data;
