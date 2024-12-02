@@ -1,2 +1,1 @@
-# Currency-Converter
- Creating Currency-Converter
+[OPEN IN BROWSER](https://smos-github.github.io/Currency-Converter/)
